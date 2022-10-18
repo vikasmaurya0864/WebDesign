@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgb(103, 66, 128), rgb(227, 117, 209));
+}
+/* width and height for logo */
+.logo{
+    width: 5vw;
+    height: 3vh;
+}
+/* NavMenu to Right-side */
+.ml-auto{
+    position: absolute;
+    right: 0;
+    
+}
+/* Margin from right */
+.nav-list{
+    margin: 0;
+    margin-right: 5vw;
+}
+/* Background color to navbar */
+.navbar{
+    background-image: linear-gradient(rgb(180, 94, 237), rgb(148, 106, 244));
+}
+/* section 1 img */
+#img1{
+    /* width: auto; */
+    position: absolute;
+    left: 55vw;
+    border-radius: 22px   99px;
+}
+/* section 1 properties */
+.section1{
+    /* background-image: url(/images/bg.jpg); */
+    background-image: linear-gradient(rgb(241, 124, 204),rgb(178, 203, 240));
+}
+/* .section2 properties */
+.section2{
+    background-color: azure;
+    border: 2px solid rgb(198, 208, 243);
+    /* margin-left:  5vw; */
+    
+}
+.location img{
+    width: 5vw;
+    height: 4vh;
+
+}
+.location{
+    margin-left: 5vw;
+}
+p, i{
+    color: red;
+    cursor: pointer;
+}
+.mx-auto{
+    margin: auto;
+}
+/* section3 properties */
+.section3{
+    text-align: center;
+
+
+}
+/* section4 properties */
+.section4{
+    /* background-color: yellow; */
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+}
+.info{
+    position: absolute;
+    right: 0;
+    margin-right: 20vw;
+
+}
+
+.section4 img{
+    margin-left: 15vw;
+    position: relative;
+    left: 0;
+    width: 22vw;
+    height: 52vh;
+    /* margin: auto; */
+    border-radius: 242px 0px 242px 242px;
+}
+/* partners section */
+.partners{
+    height: 55vh;
+    text-align: center;
+}
+#partner img{
+    width: 12vw;
+    height: 12vh;
+    margin: 5px 45px;
+}
+#partner2 img{
+    width: 12vw;
+    height: 12vh;
+    margin: 5px 45px;
+}
+#booking{
+    width: 12vw;
+    height: 12vh;
+}
+#content img{
+    position: absolute;
+    right: 20vw;
+    width: 22vw;
+    height: 52vh;
+    border-radius: 0px 242px 242px 242px;
+}
+/* section 5 properties */
+.section5{
+    display: flex;
+    height: 55vh;
+}
+.content{
+    position: absolute;
+    left: 25vw;
+}
+
+
+
+#content1 img{
+    position: absolute;
+    left: 20vw;
+    width: 22vw;
+    height: 52vh;
+    border-radius: 242px 0px 242px 242px;
+}
+/* section 6 properties */
+.section6{
+    display: flex;
+    height: 55vh;
+    margin: 5px 0;
+    margin: auto;
+    /* background-color: red; */
+}
+#section6{
+    position: absolute;
+    right: 25vw;
+    
+   
+}
+/* carousel box properties */
+#carouselText{
+    height: 59vh;
+    /* background-color: red; */
+    text-align: center;
+}
+#blue{
+    color: rgb(37, 213, 237);
+}
+.card img{
+    margin-top: 2px;
+    width: 12vw;
+    height: 20vh;
+    border-radius: 94px;
+    margin: auto;
+}
+.card{
+    
+    width: 45vw;
+    height: auto;
+    background-color: rgb(248, 244, 244);
+    border-radius: 110px 3px  110px;
+    position: relative;
+    left: 20vw;
+    margin: 1px auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    color: rgb(229, 172, 30);
+    font-weight: bolder;
+    size: 1rem;
+}
+/* .swiper{
+    display: flex;
+    width: 80vw;
+} */
+/* section 7 */
+.section7{
+    height: 75vh;
+    /* background-color: red; */
+}
+/* upper part  */
+.upper{
+    text-align: center;
+    margin: 15px 0;
+    /* margin:  auto; */
+}
+input{
+    width: 24vw;
+    border-radius: 12px;
+    color: black;
+}
+.btn{
+    border-radius: 33px;
+}
+/* lower section styling */
+.part1 img{
+    width: 3vw;
+    height: 5vh;
+
+}
+.part1{
+    display: flex;
+}
+
+.links img{
+    width: 3vw;
+    height: 5vh;
+    border-radius: 75px;
+
+}
+.links{
+    flex-direction: column;
+}
+.menu{
+    position: absolute;
+    left: 44vw;
+}
+.contact{
+    position: absolute;
+    left: 60vw;
+}
+.lower{
+    position: absolute;
+    left: 12vw;
+}
+.lower img{
+    width: 3vw;
+    height: 5vh;
+    border-radius: 75px;
+}
+.legals{
+    position: absolute;
+    left: 75vw;
+}
+/* footer part  */
+.footer{
+    text-align: center;
+}
+
+/* Media Responsive */
+
+@media(max-width:500px){
+    .section1 img{
+        /* height: 80vh; */
+        flex-direction: column;
+    }
+    .section1{
+        width: auto;
+        height: 90vh;
+    }
+    .button{
+        align-items: center;
+        /* width: 10vw; */
+        margin: auto;
+    }
+    .section2{
+        flex-direction: column;
+    }
+    .section4{
+        flex-direction: column;
+        height: 140vh;
+    }
+    .info{
+        margin: auto;
+        position: relative;
+        top: 1vh;
+        text-align: center;
+    }
+    .section4 img{
+        width: auto;
+    }
+    .content{
+      
+        text-align: center;
+        
+        margin: auto;
+    }
+    #content img{
+        width: auto;
+        /* position: relative; */
+        /* left: auto; */
+        top: 622vh;
+      
+    }
+    .section5{
+        flex-direction: column;
+        height: 140vh;
+        /* margin: auto;
+        width: auto; */
+    }
+    .section6{
+        height: 150vh;
+        flex-direction: column;
+    }
+
+    #content1 img{
+        width: auto;
+        /* align-items: center;
+        margin: auto;*/
+    } 
+    #section6{
+        /* position: fixed; */
+        /* top: 2vh; */
+        width: auto;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    #carouselText{
+        height: 70vh;
+    }
+    .card{
+        width: auto;
+        border-radius: 3px;
+        position: relative;
+        left: 0vw;
+        margin: 1px auto;
+    }
+
+    .section7{
+        height: 200vh;
+        /* flex-direction: column; */
+    }
+    .d-flex{
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+    }
+}
